@@ -89,7 +89,7 @@ include('../../includes/mediaHeader.php');
             and allowed for 'missing values' in the row data. In the example to the right you can see
             we are grouping by 'country' and 'state', but not all countries have states, so data is rolled
             up in to 'state, then country' where possible, and then just to 'country' where there is
-            not state.
+            no state.
         </p>
 
         <h2>New Feature: Asynchronous Components for React Fiber</h2>
