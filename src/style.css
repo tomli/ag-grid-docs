@@ -302,8 +302,15 @@ body {
     color: #eee;
 }
 
-.big-logo .logo-svg {
+.big-logo {
     width: 380px;
+    height: 255px;
+    background-image: url('images/logo-dark-hacked.svg');
+    background-size: 360px;
+    background-position: center left;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    text-indent: -10000px;
 }
 
 .small-logo .logo-svg {

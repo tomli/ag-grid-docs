@@ -82,9 +82,7 @@
         <div class="container">
             <div class="row text-center">
                 <div class="col-md-4">
-                    <h1 style="" class="big-logo">
-                        <?php include '../images/logo-dark-hacked.svg'; ?>
-                    </h1>
+                    <h1 style="" class="big-logo">ag-Grid</h1>
                 </div>
                 <div class="col-md-8">
                     <h1 style="padding-top: 100px;">The Best HTML 5 Grid In The World</h1>
