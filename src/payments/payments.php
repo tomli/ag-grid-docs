@@ -1,28 +1,15 @@
 <!DOCTYPE html>
 <html>
+
 <head lang="en">
-    <meta charset="UTF-8">
-
-    <title>ag-Grid Online Payments</title>
-    <meta name="description" content="Payment portal for ag-Grid">
-    <meta name="keywords" content="ag-Grid payment"/>
-
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <!-- Bootstrap -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css">
+    <? 
+    require "../includes/siteBlocks.php"; 
+    echo documentHead('ag-Grid Online Payments', 'ag-Grid payment', 'Payment portal for ag-Grid', array( 'angularjs' ));
+    ?>
 
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular.js"></script>
-
-    <link rel="stylesheet" type="text/css" href="/style.css">
-
-    <link rel="shortcut icon" href="https://www.ag-grid.com/favicon.ico" />
-
-    <!-- javascript -->
     <script src="https://checkout.stripe.com/checkout.js"></script>
     <script src="./payments.js"></script>
-
 </head>
 
 <body class="big-text">

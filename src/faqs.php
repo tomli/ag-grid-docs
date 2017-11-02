@@ -1,22 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head lang="en">
-    <meta charset="UTF-8">
-
-    <title>FAQs</title>
-    <meta name="description" content="All commonly asked questions about our Javascript Data Grid">
-    <meta name="keywords" content="FAQs ag-Grid Datagrid"/>
-
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <!-- Bootstrap -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css">
-
-    <link rel="stylesheet" type="text/css" href="/style.css">
-
-    <link rel="shortcut icon" href="https://www.ag-grid.com/favicon.ico" />
-
+<? 
+require "includes/siteBlocks.php"; 
+echo documentHead('FAQs', 'FAQs ag-Grid Datagrid', 'All commonly asked questions about our Javascript Data Grid');
+?>
 </head>
 
 <body ng-app="index" class="big-text">

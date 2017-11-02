@@ -2,21 +2,10 @@
 <html>
 <head lang="en">
     <meta charset="UTF-8">
-
-    <title>About Us</title>
-    <meta name="description" content="This is the story of ag-Grid and explains our mission, where we came from and who we are.">
-    <meta name="keywords" content="About ag-Grid"/>
-
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <!-- Bootstrap -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css">
-
-    <link rel="stylesheet" type="text/css" href="/style.css">
-
-    <link rel="shortcut icon" href="https://www.ag-grid.com/favicon.ico" />
-
+<? 
+require "includes/siteBlocks.php"; 
+echo documentHead('About Us', 'About ag-Grid', 'This is the story of ag-Grid and explains our mission, where we came from and who we are.');
+?>
 </head>
 
 <body ng-app="index" class="big-text">

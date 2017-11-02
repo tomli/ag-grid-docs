@@ -1,22 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head lang="en">
-    <meta charset="UTF-8">
-
-    <title>ag-Grid Ordering and Payment</title>
-    <meta name="description" content="Ordering and payments page for ag-Grid.">
-    <meta name="keywords" content="ag-Grid Javascript Grid Order and Payments"/>
-
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <!-- Bootstrap -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css">
-
-    <link rel="stylesheet" type="text/css" href="/style.css">
-
-    <link rel="shortcut icon" href="https://www.ag-grid.com/favicon.ico" />
-
+<? 
+require "includes/siteBlocks.php"; 
+echo documentHead('ag-Grid Ordering and Payment', 'ag-Grid Javascript Grid Order and Payments', 'Ordering and payments page for ag-Grid.');
+?>
 </head>
 
 <body ng-app="index" class="big-text">

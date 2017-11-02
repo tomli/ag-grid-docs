@@ -1,26 +1,19 @@
 <?php
-require "example-runner/utils.php"
+require "example-runner/utils.php";
+require "includes/siteBlocks.php";
 ?>
 <!DOCTYPE html>
 <html>
 <head lang="en">
-    <meta charset="UTF-8">
-    <title>JavaScript Grid</title>
-    <meta name="description"
-          content="A feature rich datagrid designed for Enterprise. Easily integrate with your framework to deliver filtering, grouping, aggregation, pivoting and much more.">
-    <meta name="keywords" content="javascript data grid react angularjs angular 2 web components aurelia"/>
-    <meta property="og:image" content="https://www.ag-grid.com/images/ag-Grid2-200.png"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="https://www.ag-grid.com/favicon.ico"/>
-    <link inline href="dist/bootstrap/css/bootstrap.css" rel="stylesheet">
-    <link inline href="style.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-    <?php include 'includes/meta.php'; ?>
+<?= documentHead(
+    'JavaScript Grid',
+    'javascript data grid react angularjs angular 2 web components aurelia',
+    'A feature rich datagrid designed for Enterprise. Easily integrate with your framework to deliver filtering, grouping, aggregation, pivoting and much more.'
+);
+?>
 
-    <style>
-
-    </style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 
 </head>
 
@@ -111,10 +104,6 @@ include 'includes/navbar.php'; ?>
     </div>
 </div>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css">
 
 <div class="HomeSectionParent">
 

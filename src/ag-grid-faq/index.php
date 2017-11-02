@@ -1,10 +1,9 @@
-<?php
-
-$pageTitle = "ag-Grid FAQ";
-$pageDescription = "Frequently Asked Questions about ag-Grid";
-$pageKeyboards = "ag-Grid FAQ";
-
-include('../includes/faqHeader.php');
+<!DOCTYPE html>
+<html>
+<head lang="en">
+<? 
+require "includes/siteBlocks.php"; 
+echo documentHead('FAQs', 'ag-Grid FAQ', 'Frequently Asked Questions about ag-Grid');
 ?>
 
 <style>
@@ -26,6 +25,15 @@ include('../includes/faqHeader.php');
         font-weight: bold;
     }
 </style>
+</head>
+
+<body  class="big-text">
+
+<?php $navKey = "about"; include 'navbar.php'; ?>
+
+<?php $headerTitle = "Frequently Asked Questions"; include 'headerRow.php'; ?>
+
+<div class="container">
 
 <div class="row">
     <div class="col-md-12" style="padding-top: 20px; padding-bottom: 20px;">

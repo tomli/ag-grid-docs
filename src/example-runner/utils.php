@@ -15,10 +15,12 @@ if (preg_match($archiveMatch, $_SERVER['PHP_SELF'], $matches)) {
     $prefix =  "//$host/$archiveSegment/dev";
     define('RUNNER_SOURCE_PREFIX', "/$archiveSegment");
     define('POLYMER_BASE_HREF_PREFIX', "//$host/$archiveSegment/");
+    define('SITE_PREFIX', "/$archiveSegment");
 } else {
     $prefix =  "//$host/dev";
     define('RUNNER_SOURCE_PREFIX', "");
     define('POLYMER_BASE_HREF_PREFIX', "//$host/");
+    define('SITE_PREFIX', "");
 }
 
 if (USE_LOCAL) {

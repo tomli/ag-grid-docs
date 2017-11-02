@@ -1,4 +1,8 @@
-<?php
+<!DOCTYPE html>
+<html>
+<head lang="en">
+<? 
+require "../includes/siteBlocks.php"; 
 
 $pageTitle = "Jobs at ag-Grid";
 $pageDescription = "We are looking for the best and the brightest to join us on our mission to create the best datagrid in the world.";
@@ -7,7 +11,7 @@ $pageKeyboards = "ag-Grid jobs";
 $socialUrl = "https://www.ag-grid.com/ag-grid-jobs-board/";
 $socialImage = "https://www.ag-grid.com/ag-grid-jobs-board/images/jobs_board.png";
 
-include('../includes/jobsHeader.php');
+echo documentHead($pageTitle, $pageKeyboards, $pageDescription, $socialImage, $socialUrl);
 ?>
 
 <style>
@@ -29,6 +33,15 @@ include('../includes/jobsHeader.php');
         font-weight: bold;
     }
 </style>
+</head>
+
+<body  class="big-text">
+
+<?php $navKey = "about"; include '../includes/navbar.php'; ?>
+<?php $headerTitle = "About Us: Jobs"; include '../includes/headerRow.php'; ?>
+
+<div class="container">
+
 
 <div class="row">
     <div class="col-md-12" style="padding-top: 20px; padding-bottom: 20px;">

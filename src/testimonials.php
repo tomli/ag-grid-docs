@@ -1,32 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head lang="en">
-    <meta charset="UTF-8">
-
-    <title>ag-Grid Testimonials</title>
-    <meta name="description" content="ag-Grid comes either as free or as Enterprise with support. This page explains the different support models for the free and Enterprise versions of ag-Grid.">
-    <meta name="keywords" content="ag-Grid Javascript Grid Support"/>
-
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <!-- Bootstrap -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css">
-
-    <link rel="stylesheet" type="text/css" href="/style.css">
-
-    <link rel="shortcut icon" href="https://www.ag-grid.com/favicon.ico" />
-
-</head>
-
-<body ng-app="index" class="big-text">
-
-<?php $navKey = "testimonials"; include 'includes/navbar.php'; ?>
-
-<?php $headerTitle = "Testimonials"; include 'includes/headerRow.php'; ?>
-
-
-<div class="container">
+<? 
+require "includes/siteBlocks.php"; 
+echo documentHead('ag-Grid Testimonials', 'ag-Grid Javascript Grid Testimonials', 'ag-Grid Javascript Grid Testimonials');
+?>
 
     <style>
         .quote-text {
@@ -55,6 +33,16 @@
             border-width: 1px;
         }
     </style>
+</head>
+
+<body ng-app="index" class="big-text">
+
+<?php $navKey = "testimonials"; include 'includes/navbar.php'; ?>
+
+<?php $headerTitle = "Testimonials"; include 'includes/headerRow.php'; ?>
+
+
+<div class="container">
 
     <div class="row quote">
         <div class="quote-text">"We’re using ag-Grid as a major component in our enterprise analytics and reporting product and it’s incredible. Prior to ag-Grid, we tried jqGrid, jqxGrid, DataTables, and SlickGrid, which all have their strong points, but we eventually ran into a wall with certain features. ag-Grid’s grouping, aggregation, filtering, and all-around flexibility allowed us to quickly integrate it into our product. And, the performance is truly awesome!"</div>
