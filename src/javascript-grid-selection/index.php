@@ -24,6 +24,8 @@ include '../documentation-main/documentation_header.php';
         <li><code>suppressRowClickSelection</code>: If <code>true</code>, rows won't be selected when clicked. Use, for
             example, when you want checkbox selection, and don't want to also select when the row
             is clicked.</li>
+        <li><code>isNodeSelectable</code>: a function which accept a RowNode object as parameter and return a boolean value, the
+            return value of this function will decide if the row can be selected or not.</li>
     </ul>
 
     <p>
@@ -58,6 +60,14 @@ include '../documentation-main/documentation_header.php';
     </p>
 
     <?= example('Multiple Row Selection', 'multiple-row-selection', 'generated') ?>
+
+    <h2>Example - Disable Selection On Row Level</h2>
+
+    <p>
+        The example below shows how to disable selection on row level.
+    </p>
+
+    <?= example('Disable Selection On Row Level', 'row-selection-disabling', 'generated') ?>
 
     <h2>Checkbox Selection</h2>
 

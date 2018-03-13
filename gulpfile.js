@@ -119,3 +119,15 @@ gulp.task('copy-ag-dependencies-to-dist', () => {
         gulp.src(['./node_modules/ag-grid-enterprise/dist/ag-grid-enterprise.js']).pipe(gulp.dest('./src/dist/ag-grid-enterprise/'))
     );
 });
+
+var  connect = require('gulp-connect-php');
+gulp.task('connect', function() {
+    connect.server({
+        // hostname: '127.0.0.1',
+        // bin: 'E:/Program Files/php7.2.3/php.exe',
+        // ini: 'E:/Program Files/php7.2.3/php.ini',
+        // port: 9000,
+        // open: true,
+        base: './dist'
+    });
+});
